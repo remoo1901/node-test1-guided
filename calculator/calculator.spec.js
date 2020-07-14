@@ -11,6 +11,7 @@ describe("calculator unit tests", () => {
     expect(calculator.sum(2, 2, 2)).toBe(6);
     expect(calculator.sum(2, 1, 1, 5, 6, 7)).toBe(22);
   });
+  
 
   it("substract", () => {
     expect(calculator.difference(2, 2)).toBe(0);
